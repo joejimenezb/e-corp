@@ -9,7 +9,7 @@ from e_corp.pipeline_stack import AWSomePipelineStack
 app = cdk.App()
 ECorpStack(app, "e-corp")
 AWSomePipelineStack(app, "AWSomePipelineStack", 
-    env=cdk.Environment(account="069320687453", region="us-east-1")
+    env=cdk.Environment(account="070243682791", region="us-east-1")
 )
 
 app.synth()
