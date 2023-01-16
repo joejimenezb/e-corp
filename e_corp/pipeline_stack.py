@@ -11,7 +11,7 @@ class AWSomePipelineStack(Stack):
 
         # Pipeline code will go here
 
-        pipeline =  CodePipeline(self, "E-Corp_Pipeline", 
+        pipeline =  CodePipeline(self, "Pipeline", 
                         pipeline_name="E-Corp_Pipeline",
                         synth=ShellStep("Synth", 
                             input=CodePipelineSource.git_hub("joejimenezb/e-corp", "main"),
